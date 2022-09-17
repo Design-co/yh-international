@@ -1242,9 +1242,18 @@ a:hover, span:hover {
   height: 6px;
   z-index: 10000001;
   background-color: #12c2e9;
-  -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  -o-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
+  -webkit-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  -o-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
 }
 
 .cursor-inner.cursor-hover {
@@ -2945,9 +2954,12 @@ a:hover, span:hover {
   color: #fff;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: opacity .5s, visibility .5s;
-  -o-transition: opacity .5s, visibility .5s;
-  transition: opacity .5s, visibility .5s;
+  -webkit-transition: opacity .5s,
+ visibility .5s;
+  -o-transition: opacity .5s,
+ visibility .5s;
+  transition: opacity .5s,
+ visibility .5s;
 }
 
 .slider-bus .caption p {
@@ -7813,6 +7825,7 @@ footer .item li .sm-post .date {
 footer .item li .subscribe {
   width: 100%;
   position: relative;
+  margin-top: 45px;
 }
 
 footer .item li .subscribe input {
