@@ -6579,7 +6579,7 @@ a:hover, span:hover {
 
 .block-sec .testim-box {
   position: relative;
-  padding: 80px 40px;
+  padding: 51px 49px;
   margin-bottom: -120px;
   z-index: 2;
 }
@@ -6635,9 +6635,9 @@ a:hover, span:hover {
 }
 
 .block-sec .testim-box .item .info .img .img-box {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  border-radius: 15%;
   overflow: hidden;
 }
 
